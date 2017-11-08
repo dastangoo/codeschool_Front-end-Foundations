@@ -56,6 +56,10 @@ ol {
 .header a {
 	color: #ffffff;
 }
+.header img {
+	display: block;
+	margin: 0 auto 0 auto;
+}
 .main-content {
 	padding: 20px;
 	border: 1px solid #dddddd;
@@ -90,4 +94,12 @@ ol {
 .recipes a {
 	color: #7facaa;
 	text-decoration: none;
+}
+.photos {
+	list-style-type: none;
+	padding: 0;
+}
+.photos li {
+	display: inline;;
+	padding-left: 11px;
 }
