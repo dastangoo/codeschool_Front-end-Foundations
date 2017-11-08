@@ -104,6 +104,10 @@ ol {
 	color: #7facaa;
 	text-decoration: none;
 }
+.recipes img {
+	float: left;
+	padding-right: 10px;
+}
 .photos {
 	list-style-type: none;
 	padding: 0;
@@ -123,4 +127,12 @@ ol {
 	color: #ffffff;
 	padding: 5px 0 5px 15px;
 	text-transform: uppercase;
+}
+.a {
+	display: inline;
+	float: left;
+}
+.b {
+	display: inline;
+	float: left;
 }
