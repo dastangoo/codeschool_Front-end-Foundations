@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-  </head>
+    <link rel="stylesheet" href="main.css">
+    <input type="checkbox" name="" value="">  
   <body>
-    <h1>Recipe World</h1>
-    <ul>
-      <li><a href="home.html">Home</a></li>
-      <li><a href="recipes.html">Recipes</a></li>
-      <li><a href="suggest.html">Suggest</a></li>
-    </ul>    
+    <div class="header">
+      <h1>Recipe World</h1>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="suggest.html">Suggest</a></li>
+      </ul>          
+    </div>
+    <div class="main-content">
+      <form>
+        <label for="recipe-name">Recipe Name</label>
+        <input type="text" id="recipe-name">
+        <label for="ingredients">Ingredients</label>
+        <textarea id="ingredients"></textarea>
+        <br>
+        <label for="newsletter">Get Newsletter</label>
+        <input type="checkbox" id="newsletter">        
+        <input type="submit" value="Click to Submit">
+      </form>
+    </div>
   </body>
 </html>
