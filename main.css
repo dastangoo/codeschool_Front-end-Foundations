@@ -6,6 +6,13 @@
 body {
 /*  padding: 20px;*/
 	padding: 0;
+	/*background-color: #5f5f5f;
+	background-image: url(images/gobbler.png);
+	background-position: top left;
+	background-position: center right;
+	background-repeat: repeat;
+	background-repeat: repeat-y;*/
+	background: #5f5f5f url(images/gobbler.png) top left repeat;
 }
 h1 {
   margin: 10px 0 15px 0;
@@ -50,8 +57,8 @@ ol {
   padding: 0 0 50px;
 }
 .header {
-	padding: 10px;
 	background-color: #b56663;
+	padding: 10px;
 }
 .header a {
 	color: #ffffff;
@@ -65,6 +72,7 @@ ol {
 	border: 1px solid #dddddd;
 	margin: 30px auto 0 auto;
 	width: 500px;
+	background: #ffffff url(images/crossword.png) top left repeat;
 }
 .nav {
   padding-left: 0;
@@ -85,6 +93,7 @@ ol {
 .recipes li {
   border: 1px solid #b56663;
   padding-left: 15px;
+	background: #ffffff url(images/li-bg.png) top left repeat;
 }
 
 .recipes h3 {
@@ -102,4 +111,16 @@ ol {
 .photos li {
 	display: inline;;
 	padding-left: 11px;
+}
+.featured-image {
+	width: 630px;
+	height: 246px;
+	background: #ffffff url(images/cake1.png) top left repeat;
+}
+.featured-image h3 {
+	margin: 0;
+	background-color: #333333;
+	color: #ffffff;
+	padding: 5px 0 5px 15px;
+	text-transform: uppercase;
 }
